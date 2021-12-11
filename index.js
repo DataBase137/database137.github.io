@@ -1,0 +1,1 @@
+//colors: #8e8e8e gray, #dc8b18 orange, #1869dc blue, 787878 darker gray, 474747 even darker, 0d0d0d almost black, 

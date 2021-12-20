@@ -1,58 +1,5 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-nav {
-    width: 100vw;
-    background-color: #474747;
-    display: flex;
-    justify-content: space-between;
-    padding: 13px 15px;
-}
-
-nav h4 {
-    font-variant-caps: all-small-caps;
-    color: white;
-    font-size: 20px;
-}
-
-.links a {
-    font-size: 18px;
-    padding: 6px 11px;
-    background: #286ccc;
-    color: #fff;
-    text-decoration: none;
-    font-variant-caps: all-small-caps;
-}
-
-body {
-    padding: 0;
-    margin: 0;
-    background: rgb(209, 194, 172);
-  }
-
-  .banner {
-    margin: 250px auto;
-    padding: 100px 50px;
-    background-color: #e9d1b3;
-    overflow: hidden;
-    width: 75%;
-    border-radius: 4px;
-    align-self: center;
-  }
-  
-  .banner h1 {
-      font-size: 50px;
-      text-align: center;
-  }
-  
-  .banner h2 {
-    text-align: center;
-    line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-  }

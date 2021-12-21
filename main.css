@@ -16,19 +16,24 @@
 nav {
     justify-content: space-between;
     display: flex;
-    background-color: black;
-    color: white;
-    height: 30px;
+    background-color: whitesmoke;
+    color: rgb(44, 44, 44);
+    height: 50px;
     align-items: center;
 }
 
 nav h3 {
     font-variant-caps: all-small-caps;
-    padding: 15px, 10px;
+    font-size: 25px;
+    text-indent: 5px;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(44, 44, 44);
     padding: 15px, 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
 }

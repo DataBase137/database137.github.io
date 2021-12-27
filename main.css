@@ -67,7 +67,7 @@ nav a {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url(banner-image.jpg) center no-repeat;
+    background-image: url(banner-image.jpg);
     background-size: cover;
 }
 

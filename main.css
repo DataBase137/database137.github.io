@@ -9,7 +9,6 @@ body, html {
 }
 
 nav {
-    justify-content: space-between;
     display: flex;
     background-color: rgb(48, 47, 47);
     color: whitesmoke;
@@ -34,6 +33,10 @@ nav a {
     padding: 5px;
     margin: 5px;
     font-weight: bold;
+}
+
+#about_link {
+  padding-left: 66vw;
 }
 
 #container {

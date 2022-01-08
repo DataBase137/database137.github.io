@@ -37,6 +37,7 @@ nav a {
 
 #about_link {
   padding-left: 66vw;
+  cursor: pointer;
 }
 
 #container {
@@ -72,7 +73,7 @@ nav a {
     height: 100%;
     background-image: url(media/banner-image.jpg);
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #about {

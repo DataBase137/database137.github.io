@@ -252,7 +252,7 @@ nav {
   }
 }
 
-.container {
+#container {
   position: relative;
   overflow: hidden;
 }

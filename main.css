@@ -97,7 +97,6 @@ h4 {
 }
 
 p {
-  margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
 
@@ -269,4 +268,9 @@ nav {
 .banner h2 {
   padding-bottom: 286px;
   padding-left: 405px;
+}
+
+#about {
+  background-color: var(--clr-white);
+  padding: 20px;
 }

@@ -126,7 +126,8 @@ nav {
   justify-content: space-between;
   padding: 1rem;
   position: fixed;
-  z-index: 100000000000000000000000000;
+  z-index: 1;
+  background-color: var(--clr-white);
 }
 
 .logo {
@@ -169,7 +170,7 @@ nav {
 }
 
 .banner h1 {
-  padding: 225px 600px 0px 600px;
+  padding: 299px 600px 0px 600px;
 }
 
 .banner h2 {

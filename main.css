@@ -131,14 +131,11 @@ nav {
   z-index: 100000000000000000000000000;
 }
 
-.nav-header {
-  align-items: center;
-  padding: 1rem;
-}
-
 .logo {
   padding-top: 2px;
   padding-bottom: 0px;
+  align-items: center;
+  padding-left: 1rem;
 }
 
 .links a {

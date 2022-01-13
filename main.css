@@ -158,17 +158,12 @@ nav {
 
 /* Main */
 
-#container {
-  position: relative;
-  overflow: hidden;
-}
-
 #banner h1 {
-  padding: 299px 600px 0px 600px;
+  padding: 309px 600px 0px 600px;
 }
 
 #banner h2 {
-  padding-bottom: 286px;
+  padding-bottom: 296px;
   padding-left: 405px;
 }
 

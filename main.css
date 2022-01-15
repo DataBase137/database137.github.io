@@ -115,6 +115,10 @@ p {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* NavBar */
 
 nav {

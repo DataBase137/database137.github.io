@@ -20,7 +20,7 @@
   --clr-blue-7: hsl(211, 27%, 70%);
   --clr-blue-8: hsl(210, 31%, 80%);
   --clr-blue-9: hsl(212, 33%, 89%);
-  --clr-blue-10: hsl(210, 36%, 96%);
+  --clr-blue-10: hsl(206, 33%, 96%);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -89,6 +89,10 @@ p {
   color: var(--clr-blue-5);
 }
 
+.fab, .fas {
+  color: var(--clr-primary-5);
+}
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -126,7 +130,7 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem;
   position: fixed;
   z-index: 1;
@@ -162,36 +166,36 @@ nav {
 
 /* Main */
 
-#banner h1 {
-  padding: 309px 600px 0px 600px;
-}
-
-#banner h2 {
-  padding-bottom: 296px;
-  padding-left: 405px;
-}
-
-#about {
-  background-color: var(--clr-white);
-  padding: 20px;
-}
-
-#about h2 {
-  padding-bottom: 20px;
+#head {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding-top: 4rem;
+  align-items: center;
+  height: 100vh;
 }
 
-#tools {
-  background-color: var(--clr-white);
-
+.info p {
+  font-size: 1.2rem;
 }
 
-#tools h2 {
-  display: flex;
-  justify-content: center;
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--clr-primary-3);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  font-weight: 500;
 }
 
-.fab, .fas {
-  color: var(--clr-primary-5);
+.contact-btn i {
+  padding-left: 7px;
+  padding-bottom: 2px;
+  font-size: 1.3rem;
+}
+
+.socials a {
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }

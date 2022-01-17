@@ -87,6 +87,7 @@ h4 {
 
 p {
   color: var(--clr-blue-5);
+  font-size: 1.2rem;
 }
 
 .fab, .fas {
@@ -179,10 +180,6 @@ nav {
   height: 100vh;
 }
 
-.head-text p {
-  font-size: 1.2rem;
-}
-
 .btn {
   display: inline-flex;
   align-items: center;
@@ -206,4 +203,12 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
+}
+
+#tools {
+  height: 100vh;
+  padding: 6rem 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

@@ -153,6 +153,11 @@ nav {
   color: var(--clr-primary-5);
 }
 
+.socials a {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 800px) {
   .links {
     display: flex;
@@ -174,28 +179,32 @@ nav {
   height: 100vh;
 }
 
-.info p {
+.head-text p {
   font-size: 1.2rem;
 }
 
-.contact-btn {
+.btn {
   display: inline-flex;
   align-items: center;
   background-color: var(--clr-primary-3);
   color: white;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.6rem;
   border-radius: 0.5rem;
   margin-top: 1rem;
   font-weight: 500;
 }
 
-.contact-btn i {
+.btn i {
   padding-left: 7px;
   padding-bottom: 2px;
   font-size: 1.3rem;
+  color: var(--clr-white);
 }
 
-.socials a {
-  padding: 0.5rem;
-  font-size: 1.5rem;
+#about {
+  background-color: var(--clr-white);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
 }

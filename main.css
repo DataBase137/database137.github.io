@@ -196,8 +196,7 @@ nav {
 
 .btn i {
   padding-left: 7px;
-  padding-bottom: 2px;
-  font-size: 1.3rem;
+  padding-top: 2px;
   color: var(--clr-white);
 }
 

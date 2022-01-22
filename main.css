@@ -31,6 +31,7 @@
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
+  --spacing: 150;
 }
 
 /* Global Styles */
@@ -47,6 +48,7 @@ body {
   color: var(--clr-blue-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  letter-spacing: var(--spacing);
 }
 
 ul {
@@ -130,6 +132,7 @@ nav {
   position: fixed;
   z-index: 1;
   background-color: var(--clr-white);
+  letter-spacing: var(--spacing);
 }
 
 .logo {
